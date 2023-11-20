@@ -1,12 +1,34 @@
+/* eslint-disable no-unused-vars */
+import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../../provider/AuthProvider";
+import toast from "react-hot-toast";
 
 const Navbar = () => {
+
+    const { user, logOut } = useContext(AuthContext);
+
+    const handleLogOut = () => {
+        logOut()
+            .then(res => toast.success('Account loged out'))
+            .catch(err => toast.error(err.message))
+    }
 
     const navlinks = <>
         <li><NavLink className={({ isActive }) => isActive ? 'text-red-500 font-semibold' : ''} to='/'>Home</NavLink></li>
         <li><NavLink className={({ isActive }) => isActive ? 'text-red-500 font-semibold' : ''} to='/services'>Services</NavLink></li>
         <li><NavLink className={({ isActive }) => isActive ? 'text-red-500 font-semibold' : ''} to='/contact'>Contact</NavLink></li>
         <li><NavLink className={({ isActive }) => isActive ? 'text-red-500 font-semibold' : ''} to='/about'>About</NavLink></li>
+        {
+            user ? <>
+                <li className="me-2">{user?.displayName}</li>
+                <li className="btn btn-primary" onClick={handleLogOut}>Log Out</li>
+            </>
+                :
+                <Link to='/login'>
+                    <li className="btn btn-primary">Login</li>
+                </Link>
+        }
     </>
 
     return (
@@ -24,7 +46,7 @@ const Navbar = () => {
                     <Link to='/' className="btn btn-ghost text-2xl font-semibold">Tech Flow</Link>
                 </div>
                 <div className="navbar-end hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className="menu menu-horizontal px-1 items-center">
                         {navlinks}
                     </ul>
                 </div>
