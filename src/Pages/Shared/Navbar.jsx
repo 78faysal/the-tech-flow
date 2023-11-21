@@ -22,6 +22,7 @@ const Navbar = () => {
         {
             user ? <>
                 <li className="me-2">{user?.displayName}</li>
+                <li><img className="w-20 bg-cover" src={user?.photoURL} alt="" /></li>
                 <li className="btn btn-primary" onClick={handleLogOut}>Log Out</li>
             </>
                 :

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const About = () => {
     return (
@@ -12,7 +13,7 @@ const About = () => {
                             <h2 className="card-title text-3xl">Who We Are?</h2>
                             <p>With a track record of successful events spanning various industries, we bring a wealth of experience to the table. Our team's expertise ensures that your event is in capable hands from conceptualization to execution.</p>
                             <div className="card-actions justify-start">
-                                <button className="btn btn-primary">Join Us</button>
+                                <Link to='joinUs' className="btn btn-primary">Join Us</Link>
                             </div>
                         </div>
                     </div>

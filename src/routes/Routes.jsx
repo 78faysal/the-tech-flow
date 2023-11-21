@@ -9,6 +9,7 @@ import PrivateRoute from "./PrivateRoute";
 import ServiceDetails from "../Pages/ServiceDetails/ServiceDetails";
 import About from "../Pages/Home/About";
 import Contact from "../Pages/Home/Contact";
+import JoinUs from "../Pages/JoinUs/JoinUs";
 
 
 const routes = createBrowserRouter([{
@@ -37,6 +38,10 @@ const routes = createBrowserRouter([{
         {
             path: '/serviceDetail/:id',
             element: <PrivateRoute><ServiceDetails /></PrivateRoute>
+        },
+        {
+            path: '/joinUs',
+            element: <PrivateRoute><JoinUs /></PrivateRoute>
         },
         {
             path: '/about',

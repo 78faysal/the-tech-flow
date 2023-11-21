@@ -6,7 +6,7 @@ const Services = () => {
     const navigate = useNavigate();
 
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen max-sm:px-5">
             <div className="h-20"></div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-center my-20">
                 {
