@@ -6,7 +6,7 @@ const Banner = () => {
     return (
         <div>
             <div className="hero min-h-screen absolute left-0 z-0" style={{ backgroundImage: 'url(https://i.ibb.co/h1Zz5zB/banner.jpg)' }}>
-                <div className="hero-overlay bg-opacity-60"></div>
+                <div className="hero-overlay bg-opacity-75"></div>
                 <div className="hero-content text-center text-neutral-content ">
                     <div className="max-w-4xl">
                         <h1 className="mb-5 text-5xl font-bold">Make tech-driven events <br /> <span className='text-primary'>Elevated</span></h1>

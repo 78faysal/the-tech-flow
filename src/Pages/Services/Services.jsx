@@ -1,8 +1,9 @@
 import { FaStar } from "react-icons/fa";
-import { Link, useLoaderData } from "react-router-dom";
+import { Link, useLoaderData, useNavigate } from "react-router-dom";
 
 const Services = () => {
     const services = useLoaderData();
+    const navigate = useNavigate();
 
     return (
         <div className="min-h-screen">
@@ -21,7 +22,7 @@ const Services = () => {
                                         <p className="text-xl flex gap-1"><FaStar className="text-yellow-500"></FaStar>{service.rating}</p>
                                     </div>
                                     <div className="card-actions justify-start mt-3">
-                                        <button className="btn btn-primary">See Details</button>
+                                        <button className="btn btn-primary" onClick={() => navigate(`/serviceDetail/${service.id}`)}>See Details</button>
                                     </div>
                                 </div>
                             </div>

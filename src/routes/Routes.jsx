@@ -7,6 +7,8 @@ import Register from "../Pages/Register/Register";
 import Services from "../Pages/Services/Services";
 import PrivateRoute from "./PrivateRoute";
 import ServiceDetails from "../Pages/ServiceDetails/ServiceDetails";
+import About from "../Pages/Home/About";
+import Contact from "../Pages/Home/Contact";
 
 
 const routes = createBrowserRouter([{
@@ -35,6 +37,14 @@ const routes = createBrowserRouter([{
         {
             path: '/serviceDetail/:id',
             element: <PrivateRoute><ServiceDetails /></PrivateRoute>
+        },
+        {
+            path: '/about',
+            element: <About />
+        },
+        {
+            path: '/contact',
+            element: <Contact />
         }
     ]
 }])
