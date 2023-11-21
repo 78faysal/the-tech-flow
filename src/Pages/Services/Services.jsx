@@ -4,11 +4,10 @@ import { Link, useLoaderData } from "react-router-dom";
 const Services = () => {
     const services = useLoaderData();
 
-    // console.log(services);
     return (
         <div className="min-h-screen">
             <div className="h-20"></div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-center ">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-center my-20">
                 {
                     services.map(service => {
                         return (

@@ -1,19 +1,22 @@
 /* eslint-disable no-unused-vars */
 import { useContext } from "react";
 import toast from "react-hot-toast";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../provider/AuthProvider";
 import { FaGithub, FaGoogle } from "react-icons/fa";
 
 const Login = () => {
 
     const { logIn, googleLogIn, gitHubLogIn } = useContext(AuthContext);
-    // console.log(createUser);
+    const location = useLocation();
+    const navigate = useNavigate();
+
 
     const handleGoogleLogin = () => {
         googleLogIn()
             .then(res => {
-                toast.success('Loged In Successfully')
+                toast.success('Loged In Successfully');
+                navigate(location.state);
             })
             .catch(err => {
                 toast.error(err.message);
@@ -23,7 +26,8 @@ const Login = () => {
     const handleGitHubLogin = () => {
         gitHubLogIn()
             .then(res => {
-                toast.success('Loged In Successfully')
+                toast.success('Loged In Successfully');
+                navigate(location.state);
             })
             .catch(err => {
                 toast.error(err.message);
@@ -43,7 +47,8 @@ const Login = () => {
         // login 
         logIn(email, password)
             .then(result => {
-                toast.success('Loged In successfully!')
+                toast.success('Loged In successfully!');
+                navigate(location.state);
             })
             .catch(err => {
                 toast.error(err.message)
