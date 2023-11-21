@@ -1,8 +1,14 @@
+/* eslint-disable no-unused-vars */
+import Banner from "./Banner";
+import Services from "../Services/Services";
+import ShortServices from "./ShortServices";
 
 const Home = () => {
     return (
         <div>
-            <h2>This is home</h2>
+            <Banner />
+            <div className="min-h-screen"></div>
+            <ShortServices />
         </div>
     );
 };

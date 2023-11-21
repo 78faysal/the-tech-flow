@@ -12,22 +12,22 @@ const Login = () => {
 
     const handleGoogleLogin = () => {
         googleLogIn()
-        .then(res => {
-            toast.success('Loged In Successfully')
-        })
-        .catch(err => {
-            toast.error(err.message);
-        })
+            .then(res => {
+                toast.success('Loged In Successfully')
+            })
+            .catch(err => {
+                toast.error(err.message);
+            })
     }
 
     const handleGitHubLogin = () => {
         gitHubLogIn()
-        .then(res => {
-            toast.success('Loged In Successfully')
-        })
-        .catch(err => {
-            toast.error(err.message);
-        })
+            .then(res => {
+                toast.success('Loged In Successfully')
+            })
+            .catch(err => {
+                toast.error(err.message);
+            })
     }
 
     const handleFormSubmit = e => {
@@ -51,6 +51,7 @@ const Login = () => {
     }
     return (
         <div>
+            <div className="h-20"></div>
             <div className="hero min-h-screen">
                 <div className="hero-content flex-col">
                     <div className="text-center">

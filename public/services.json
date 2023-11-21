@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "img": "https://i.ibb.co/PGLGXP7/marketing.jpg",
+      "title": "Event Marketing and Promotion",
+      "description": "Our Event Marketing and Promotion service offers comprehensive assistance in promoting events through strategic digital marketing campaigns, engaging social media strategies, and targeted online channels. With a focus on maximizing event reach, our proven marketing expertise ensures heightened visibility and audience engagement. Over the years, we've successfully collaborated with leading companies such as ABC Marketing Solutions and XYZ Event Promotions.",
+      "price": 1000,
+      "rating": 4.8,
+      "why_us": "Maximize event reach with our proven marketing expertise.",
+      "worked_with": ["ABC Marketing Solutions", "XYZ Event Promotions"]
+    },
+    {
+      "id": 2,
+      "img": "https://i.ibb.co/kx3SX7J/technology-integration.jpg",
+      "title": "Technology Integration",
+      "description": "Explore the future of events with our Technology Integration service, offering cutting-edge solutions like VR, AR, live streaming, and interactive presentations. Stay ahead with the latest event technology trends, creating immersive and unforgettable experiences for your attendees. Our team has successfully implemented innovative solutions for companies such as Tech Innovators Inc. and FutureTech Conventions.",
+      "price": 800,
+      "rating": 4.5,
+      "why_us": "Stay ahead with the latest event technology trends.",
+      "worked_with": ["Tech Innovators Inc.", "FutureTech Conventions"]
+    },
+    {
+      "id": 3,
+      "img": "https://i.ibb.co/VwSvPhx/registration.jpg",
+      "title": "Registration and Ticketing",
+      "description": "Simplify event logistics with our user-friendly Registration and Ticketing platform, facilitating seamless event entry for attendees. This service provides an efficient and secure ticketing system with QR code generation for easy check-in. Trusted by leading event organizers, our platform has streamlined registration processes for companies like EventEase Solutions and TicketTech Pro.",
+      "price": 400,
+      "rating": 4.7,
+      "why_us": "Efficient and secure ticketing system.",
+      "worked_with": ["EventEase Solutions", "TicketTech Pro"]
+    },
+    {
+      "id": 4,
+      "img": "https://i.ibb.co/P4k2HWR/event-planing.jpg",
+      "title": "Event Planning and Coordination",
+      "description": "Experience seamless events with our Event Planning and Coordination service, offering comprehensive solutions including venue selection, scheduling, and meticulous coordination. Our experienced team boasts a track record of successful events, having collaborated with renowned companies such as EventSuccess Co. and PerfectPlan Events.",
+      "price": 700,
+      "rating": 4.6,
+      "why_us": "Experienced team with a track record of successful events.",
+      "worked_with": ["EventSuccess Co.", "PerfectPlan Events"]
+    },
+    {
+      "id": 5,
+      "img": "https://i.ibb.co/TkvbpVy/partnership.jpg",
+      "title": "Sponsorship and Partnership Management",
+      "description": "Boost your event's impact with our Sponsorship and Partnership Management service. We assist in securing sponsors, showcasing partnerships, and measuring ROI. Maximize sponsor exposure and ROI with our dedicated management services, trusted by industry leaders such as SponsorConnect Inc. and PartnershipPros.",
+      "price": 900,
+      "rating": 4.6,
+      "why_us": "Maximize sponsor exposure and ROI with our dedicated management.",
+      "worked_with": ["SponsorConnect Inc.", "PartnershipPros"]
+    },
+    {
+      "id": 6,
+      "img": "https://i.ibb.co/b3xjnzJ/event-services.jpg",
+      "title": "Post-Event Services",
+      "description": "Extend the success of your event with our Post-Event Services, offering activities such as event recap videos, feedback compilation, and detailed post-event reports. Capture and leverage the success of your event beyond its conclusion, backed by our expertise and collaboration with companies like Recap Media Solutions and PostEvent Analytics.",
+      "price": 1300,
+      "rating": 4.8,
+      "why_us": "Capture and leverage the success of your event beyond its conclusion.",
+      "worked_with": ["Recap Media Solutions", "PostEvent Analytics"]
+    },
+    {
+      "id": 7,
+      "img": "https://i.ibb.co/2M98PP9/networking.jpg",
+      "title": "Networking Solutions",
+      "description": "Facilitate meaningful connections at your events with our Networking Solutions. Implement communication and collaboration tools, including dedicated mobile apps and virtual meeting rooms. Trusted by companies like ConnectNow Networking and VirtualMeet Innovations, our solutions enhance attendee engagement and interaction.",
+      "price": 600,
+      "rating": 4.7,
+      "why_us": "Facilitate meaningful connections at your events.",
+      "worked_with": ["ConnectNow Networking", "VirtualMeet Innovations"]
+    },
+    {
+      "id": 8,
+      "img": "https://i.ibb.co/xSBwQk8/data-analytics.jpg",
+      "title": "Data Analytics and Insights",
+      "description": "Unlock valuable insights with our Data Analytics and Insights service. Understand attendee behavior, track event success metrics, and gather actionable insights for future improvements. Our data-driven approach has benefited companies like AnalyticEvents Ltd. and Insightful Gatherings.",
+      "price": 800,
+      "rating": 4.4,
+      "why_us": "Harness the power of data for better event outcomes.",
+      "worked_with": ["AnalyticEvents Ltd.", "Insightful Gatherings"]
+    },
+    {
+      "id": 9,
+      "img": "https://i.ibb.co/Zf2sHW5/onsite-support.jpg",
+      "title": "On-Site Support and Management",
+      "description": "Ensure a seamless and technically flawless event experience with our On-Site Support and Management service. From managing AV equipment to troubleshooting technical issues and coordinating with vendors, our team guarantees a stress-free event. Trusted by companies like EventTech Solutions and SupportPro Events.",
+      "price": 1000,
+      "rating": 4.9,
+      "why_us": "Ensure a seamless and technically flawless event experience.",
+      "worked_with": ["EventTech Solutions", "SupportPro Events"]
+    }
+  ]
+  

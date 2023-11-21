@@ -9,25 +9,25 @@ const Register = () => {
 
     const { createUser, googleLogIn, gitHubLogIn } = useContext(AuthContext);
     // console.log(createUser);
-    
+
     const handleGoogleLogin = () => {
         googleLogIn()
-        .then(res => {
-            toast.success('Loged In Successfully')
-        })
-        .catch(err => {
-            toast.error(err.message);
-        })
+            .then(res => {
+                toast.success('Loged In Successfully')
+            })
+            .catch(err => {
+                toast.error(err.message);
+            })
     }
 
     const handleGitHubLogin = () => {
         gitHubLogIn()
-        .then(res => {
-            toast.success('Loged In Successfully')
-        })
-        .catch(err => {
-            toast.error(err.message);
-        })
+            .then(res => {
+                toast.success('Loged In Successfully')
+            })
+            .catch(err => {
+                toast.error(err.message);
+            })
     }
 
     const handleOnSubmit = e => {
@@ -58,6 +58,7 @@ const Register = () => {
     }
     return (
         <div>
+            <div className="h-20"></div>
             <div className="hero min-h-screen">
                 <div className="hero-content flex-col">
                     <div className="text-center">

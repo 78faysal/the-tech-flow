@@ -33,7 +33,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className="navbar bg-base-100 lg:px-24">
+            <div className="navbar bg-transparent lg:px-24 absolute top-0 z-10">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -51,6 +51,7 @@ const Navbar = () => {
                     </ul>
                 </div>
             </div>
+            {/* <div className="h-20 bg-transparent"></div> */}
         </div>
     );
 };
