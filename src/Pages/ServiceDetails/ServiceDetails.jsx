@@ -24,8 +24,8 @@ const ServiceDetails = () => {
             <div className="h-20"></div>
             <div className="my-20 max-sm:px-5">
                 <div className="card grid grid-cols-1 md:grid-cols-2">
-                    <figure><img src={img} alt="" /></figure>
-                    <div className="max-sm:py-5 px-5 flex items-center">
+                    <figure data-aos="fade-right"><img src={img} alt="" /></figure>
+                    <div data-aos="fade-left" className="max-sm:py-5 px-5 flex items-center">
                         <div className="space-y-3">
                             <h2 className="card-title text-3xl">{title}</h2>
                             <p>{description}</p>

@@ -18,7 +18,7 @@ const ShortServices = () => {
                 {
                     services.map(service => {
                         return (
-                            <div key={service.id} className="card card-compact bg-slate-800 shadow-xl">
+                            <div data-aos="fade-up" key={service.id} className="card card-compact bg-slate-800 shadow-xl">
                                 <figure><img src={`${service.img}`} alt="" /></figure>
                                 <div className="card-body">
                                     <h2 className="card-title">{service.title}</h2>

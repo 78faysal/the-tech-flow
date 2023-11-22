@@ -6,11 +6,11 @@ const Contact = () => {
             <div className="" >
                 <div className="hero min-h-screen">
                     <div className="hero-content grid grid-cols-1 md:grid-cols-2">
-                        <div className="text-center lg:text-left">
+                        <div data-aos="fade-right" className="text-center lg:text-left">
                             <h1 className="text-3xl font-bold">Stay Connected</h1>
-                            <p className="py-6">Connect with us today and let's bring your events to life! Reach out for seamless event management solutions. Your extraordinary event experience starts with a simple message to info@abc.com</p>
+                            <p className="py-6">Connect with us today and let us bring your events to life! Reach out for seamless event management solutions. Your extraordinary event experience starts with a simple message to info@abc.com</p>
                         </div>
-                        <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-slate-800 mx-auto">
+                        <div data-aos="fade-left" className="card shrink-0 w-full max-w-sm shadow-2xl bg-slate-800 mx-auto">
                             <form className="card-body">
                                 <div className="form-control">
                                     <label className="label">

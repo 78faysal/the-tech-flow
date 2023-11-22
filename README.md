@@ -8,3 +8,4 @@ Features -
     3. Buy Services
     4. See Services Details
     5. Contact form
+    6. Join us
